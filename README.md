@@ -1,6 +1,18 @@
 # Materials for CoDaS-HEP 2023 Columnar Data Analysis Tutorial
 
+
 This repository contains the lecture notebooks and workbook used for [columnar data analysis](https://indico.cern.ch/event/1151367/timetable/#41-columnar-data-analysis), presented at CoDaS-HEP at 13:30pm on July 20, 2023 by Jim Pivarski and Ioana Ifrim.
+
+
+**Abstract:**
+
+Data analysis languages, such as Numpy, MATLAB, R, IDL, and ADL, are typically interactive with an array-at-a-time interface. Instead of performing an entire analysis in a single loop, each step in the calculation is a separate pass, letting the user inspect distributions each step of the way.
+
+Unfortunately, these languages are limited to primitive data types: mostly numbers and booleans. Variable-length and nested data structures, such as different numbers of particles per event, don't fit this model. Fortunately, the model can be extended.
+
+This tutorial will introduce awkward-array, the concepts of columnar data structures, and how to use them in data analysis, such as computing combinatorics (quantities depending on combinations of particles) without any for loops.
+
+
 
 
 ## How to participate 
@@ -21,7 +33,7 @@ If you want to install and run the notebooks on your computer (including the lec
 First clone this repository to your local machine via:
 
 ```
-[TODO] insert link 
+git clone https://github.com/ioanaif/columnar-data-analysis-codas-hep-2023.git
 ```
 
 #### 2. Download conda (if you haven't already)
