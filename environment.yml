@@ -5,6 +5,7 @@ dependencies:
   - awkward==2.3.1
   - dask-awkward==2023.7.0
   - dask==2023.07.0
+  - h5py 
   - hist==2.6.3 
   - jax==0.4.12
   - jaxlib==0.4.12

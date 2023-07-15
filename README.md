@@ -3,6 +3,8 @@
 
 This repository contains the lecture notebooks and workbook used for [columnar data analysis](https://indico.cern.ch/event/1151367/timetable/#41-columnar-data-analysis), presented at CoDaS-HEP at 13:30pm on July 20, 2023 by Jim Pivarski and Ioana Ifrim.
 
+Workbook Live WebAssymbly (Pyodide + JupyterLite) instance: https://ioanaif.github.io/columnar-data-analysis-codas-hep-2023/lab/index.html
+
 
 **Abstract:**
 
@@ -18,12 +20,12 @@ This tutorial will introduce awkward-array, the concepts of columnar data struct
 ## How to participate 
 
 
-You don't need to install anything on your computer to participate; You can run the turorial notebook in your browser with JupyterLite:
+You don't need to install anything on your computer to participate; You can run the workbook notebook in your browser with JupyterLite:
 
 https://ioanaif.github.io/columnar-data-analysis-codas-hep-2023/lab/index.html
 
 
-### Running the notebooks on your personal computer
+### Running all the notebooks on your personal computer
 
 If you want to install and run the notebooks on your computer (including the lecture notebooks), you can do so by following these steps:
 
